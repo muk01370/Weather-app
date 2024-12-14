@@ -35,17 +35,6 @@ const SignUp = () => {
     };
 
     return (
-        // <div className="signUpPage">
-        //     <form onSubmit={handleSubmit}>
-        //         <input id="fullName" type="text" placeholder="Full Name" value={formData.fullName} onChange={handleChange} required />
-        //         <input id="email" type="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
-        //         <input id="password" type="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
-        //         <input id="confirmPassword" type="password" placeholder="Confirm Password" value={formData.confirmPassword} onChange={handleChange} required />
-        //         {error && <p style={{ color: 'red' }}>{error}</p>}
-        //         <button type="submit">Sign Up</button>
-        //     </form>
-        // </div>
-
         <div className="signUpPage">
                     <div className="d-flex justify-content-center align-items-center min-vh-100">
                         <div className="card shadow-lg p-4" style={{ width: "400px" }}>
